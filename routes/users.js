@@ -38,7 +38,7 @@ router.post('/register', function(req, res, next){
       if(err) throw err;
     });
 
-    res.status(200).send({status: 'success'});
+    res.status(200).send({state: 'success'});
   }
 });
 
